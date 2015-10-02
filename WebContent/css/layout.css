@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    list-style: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    position: relative;
+}
+
+#document {
+    /* Positioning */
+    width: 700px;      /* Page Resolution X */
+    min-height: 200px;  /* Page Resolution Y */
+    /* Formatting */
+    border: 1px solid blue;
+}
+
+#document > main {
+    min-height: inherit;
+}
+
+#document > main > nav {
+    /* Positioning */
+    min-height: inherit;
+    /* Formatting */
+    border: 1px solid red;
+}
+
+#document > main > section {
+    /* Positioning */
+    min-height: inherit;
+    /* Formatting */
+    border: 1px solid green;
+}

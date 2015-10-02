@@ -1,0 +1,45 @@
+/* ------ LISTS -------------------------------------------- */
+ul.horizontal-list,
+ul.vertical-list {
+    /* Positioning */
+    display:inline-block;
+    position: relative;
+    margin:0;
+    padding:0;
+    /* Formatting */
+    list-style: none;
+}
+ul.horizontal-list > li,
+ul.vertical-list   > li {
+    /* Positioning */
+    position: relative;
+    margin:0;
+    padding:0;
+}
+ul.horizontal-list > li {
+    float:left;
+}
+
+/* ------ VERTICAL MENU ------------------------------------- */
+ul.vertical-menu {
+    /* Positioning */
+    display:inline-block;
+    position: relative;
+    margin:0;
+    padding:0;
+    /* Formatting */
+    list-style: none;
+    border: 1px solid gray;
+    cursor:pointer;
+}
+ul.vertical-menu   > li {
+    /* Positioning */
+    position: relative;
+    margin:0;
+    padding:5px 20px;
+    /* Formatting */
+    border: 1px solid gray;
+}
+ul.horizontal-menu > li {
+    float:left;
+}
